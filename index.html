@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Project Viewer</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="image/doge.png" alt="Logo" style="border-radius: 50%; width: 100px;">
+    </div>
+    <div class="intro">
+      <h2>HO Tsz Kit (Ken)</h2>
+      <p>A static website for storing and integrating data analysis projects and report</p>
+    </div>
+    <div class="tabs">
+      <button class="tab" id="allfiles-tab" data-type="allfiles">All Files</button>
+      <button class="tab" id="notebook-tab" data-type="notebook">Notebook</button>
+      <button class="tab" id="document-tab" data-type="document">Document</button>
+    </div>
+  </div>
+  <header class="header">
+    <img class="Search_logo" src="image/search.svg" alt="Logo">
+    <input type="search" id="search-bar" class="search-bar" placeholder="Search...">
+    <input type="checkbox" id="darkmode-toggle" class="darkmode-checkbox"/>
+    <label for="darkmode-toggle" class="darkmode-toggle-label"></label>
+  </header>
+  <main class="main-content" id="files-list">
+    <!-- File listing and other main content will go here -->
+  </main>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
